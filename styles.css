@@ -1,0 +1,30 @@
+*{
+   box-sizing: border-box;
+}
+
+body{
+   margin:0;
+   background: linear-gradient(300deg,white,grey);
+   font-family: 'Courier New', Courier, monospace;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   min-height: 100vh;
+}
+
+input{
+   background-color: #fff;
+   border: none;
+   border-radius: 25px;
+   box-shadow: 0 4px rgba(0,0,0,0.5);
+   padding:1rem;
+}
+
+input:focus{
+   outline: none;
+}
+
+.weather{
+   text-align: center;
+}
